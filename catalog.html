@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Каталог</title>
 </head>
 <body>
@@ -45,15 +46,16 @@
 			<h1 class="catalog-title">Каталог</h1>
 			<ul class="breadcrumbs">
 				<li class="breadcrumbs-item">
-					<a href="index.html" class="breadcrumbs-link">Главная</a>
+					<a class="breadcrumbs-link" href="index.html" >Главная</a>
 				</li>
 				<li class="breadcrumbs-item">
-					<a class="breadcrumbs-link">Каталог</a>
+					<a class="breadcrumbs-link" href="catalog.html">Каталог</a>
 				</li>
 			</ul>
 		</header>
 		<section class="filters">
-			<form class="catalog-filters" action="" method="get">
+			<h2 class="visually-hidden">Фильтры товаров</h2>
+			<form class="catalog-filters" action="https://echo.htmlacademy.ru/" method="get">
 				<fieldset class="filters-price">
 					<legend class="filters-price-title">Цена</legend>
 					<button type="button" class="range-slider slider-min">
@@ -115,24 +117,27 @@
 						</li>
 					</ul>
 				</fieldset>
+				<button class="button" type="submit">Показать</button>
 			</form>
 		</section>
 		<section class="sorting-view">
-			<form class="sorting-form" action="" method="get">
+			<h2 class="visually-hidden">Способы отображения товаров на странице</h2>
+			<form class="sorting-form" action="https://echo.htmlacademy.ru/" method="get">
 				<select name="sorting-type">
 					<option value="expensive">Сначала дорогие</option>
 					<option value="cheaper">Сначала дешевые</option>
-					<option value="popluar">Сначала популярные</option>
+					<option value="popular">Сначала популярные</option>
 				</select>
 			</form>
 			<a class="sorting-link button" href="#">Показать списком</a>
 			<a class="sorting-link button" href="#">Показать карточками</a>
 		</section>
 		<section class="goods">
+			<h2 class="visually-hidden">Товары</h2>
 			<ul class="goods-list">
 				<li class="goods-item">
 					<a class="item-links" href="#">
-						<img class="goods-item-image" src="">
+						<img class="goods-item-image" src="" alt="">
 						<h3 class="goods-item-title">Шампунь для мужчин Brews Daily</h3>
 					</a>
 					<span class="goods-item-price">744 ₽</span>
@@ -140,7 +145,7 @@
 				</li>
 				<li class="goods-item">
 					<a class="item-links" href="#">
-						<img class="goods-item-image" src="">
+						<img class="goods-item-image" src="" alt>
 						<h3 class="goods-item-title">Syoss шампунь Men Power & Strength</h3>
 					</a>
 					<span class="goods-item-price">160 ₽</span>
@@ -148,7 +153,7 @@
 				</li>
 				<li class="goods-item">
 					<a class="item-links" href="#">
-						<img class="goods-item-image" src="">
+						<img class="goods-item-image" src="" alt="">
 						<h3 class="goods-item-title">Schauma шампунь для мужчин «Сила и объём с хмелем»</h3>
 					</a>
 					<span class="goods-item-price">94 ₽</span>
@@ -156,7 +161,7 @@
 				</li>
 				<li class="goods-item">
 					<a class="item-links" href="#">
-						<img class="goods-item-image" src="">
+						<img class="goods-item-image" src="" alt="">
 						<h3 class="goods-item-title">Nivea Men шампунь-уход  «Экстремальная свежесть с ментолом»</h3>
 					</a>
 					<span class="goods-item-price">173 ₽</span>
@@ -164,7 +169,7 @@
 				</li>
 				<li class="goods-item">
 					<a class="item-links" href="#">
-						<img class="goods-item-image" src="">
+						<img class="goods-item-image" src="" alt="">
 						<h3 class="goods-item-title">Шампунь Amplifier Thickening</h3>
 					</a>
 					<span class="goods-item-price">441 ₽</span>
@@ -172,7 +177,7 @@
 				</li>
 				<li class="goods-item">
 					<a class="item-links" href="#">
-						<img class="goods-item-image" src="">
+						<img class="goods-item-image" src="" alt="">
 						<h3 class="goods-item-title">American Crew шампунь Anti-Dandruff</h3>
 					</a>
 					<span class="goods-item-price">904 ₽</span>
