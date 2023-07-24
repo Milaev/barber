@@ -1,0 +1,241 @@
+@font-face {
+	font-family: "PT Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/ptsans-400.woff2") format:("woff2");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "PT Sans";
+	font-style: bold;
+	font-weight: 700;
+	src: url("../fonts/ptsans-700.woff2") format:("woff2");
+	font-display: swap;
+}
+
+body {
+	font-family: "PT Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 24px;
+	color: #242424;
+	background-color: #fbf7f4;
+}
+
+.button {
+	font-family: inherit;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 700;
+	text-align: center;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+
+.main-header {
+	background-color: black;
+	color: white;
+}
+
+.menu-item, .userbar-item-link {
+	line-height: 22px; 
+	text-transform: uppercase;
+	color: white;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: none;
+}
+ 
+.content {
+	background-image: url("../images/bg-main.jpg");
+	color: white;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.advantages {
+	text-align: center;
+}
+
+.advantages-title, .catalog-title {
+	text-transform: uppercase;
+	font-size: 32px;
+	line-height: 35px;
+}
+
+.content-with-light-bg, .catalog-content {
+	color: #242424;
+	background-image: url("../images/bg-noisy-ivory.png");
+	background-repeat: repeat;
+}
+
+.services {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.services-title {
+	font-size: 32px;
+	line-height: 35px;
+}
+
+.services-list {
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.services-price {
+	color: #AF7842;
+
+}
+
+.photo-gallery-title, .contacts-title, .appointment-title {
+	font-size: 32px;
+	line-height: 35px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.contacts {
+	font-weight: 700;
+}
+
+.address {
+	font-style: normal;
+}
+
+.contacts-subtitle, .contacts-subtitle {
+	font-size: 20px;
+	line-height: 28px;
+	color: #AF7842;
+	text-transform: uppercase;
+}
+
+.contacts-phone {
+	color: #242424;
+	font-size: 24px;
+	line-height: 29px;
+	text-transform: uppercase;
+}
+
+.appointment p {
+	font-size: 14px;
+	line-height: 20px;
+	color: #595959;
+}
+
+.appointment label {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.page-footer {
+	color: white;
+	background-image: url("../images/bg-noisy-black.png");
+	background-repeat: repeat;
+	background-color: #242424;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 700;
+}
+
+.footer-address {
+	font-style: normal;
+}
+
+.footer-phone {
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.footer-roadmap-link {
+	color: #ffffff;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.footer-subscribe-title, .footer-social-title {
+	font-size: 20px;
+	line-height: 28px;
+	text-transform: uppercase;
+}
+
+.copyright, .git-creator {
+	color: #0abab5;
+}
+
+.copyright-link {
+	color:#AF7842;
+	text-decoration: none;
+}
+
+.breadcrumbs, .breadcrumbs-link {
+	color: #242424;
+}
+
+.filters-price-title,
+.filters-brands-title, .filters-product-group-title {
+	color: black;
+	font-size: 20px;
+	line-height: 28px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.filters-brands, .filters-product-group {
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 700;
+}
+
+.sorting-view {
+	background-color: #ffffff;
+	color: #242424;
+}
+
+.sorting-link-light {
+	color: #242424;
+	background-color: #ffffff
+}
+
+.goods-item {
+	background-color: #fff;
+}
+
+.item-links {
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 700;
+}
+
+.goods-item-price {
+	font-size: 24px;
+	line-height: 20px;
+	color: #814B18;
+	font-weight: 700;
+}
+
+.pagination-link {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: black;
+	font-weight: 700;
+}
+
+.pagination-disabled {
+	background-color: #595959;
+}
+
+.pagination-current {
+	color: #242424;
+	background-color: #ffffff
+}

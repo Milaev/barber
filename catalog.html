@@ -3,13 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/styles.css">
 	<title>Каталог</title>
 </head>
 <body>
 	<header class="main-header">
 		<nav class="main-menu">
-			<a class="menu-logo">
-				<img src="index.html" alt="Logo Small">
+			<a class="menu-logo" href="index.html">
+				<img src="images/catalog-logo.svg" alt="Logo Small" width="138" height="16">
 			</a>
 			<ul class="top-menu">
 				<li class="top-menu-item">
@@ -24,17 +25,17 @@
 			</ul>
 			<ul class="top-menu userbar">
 				<li class="userbar-item">
-					<a class="search-button" href="#">
+					<a class="userbar-item-link search-button" href="#">
 						<span class="visually-hidden">Поиск</span>
 					</a>
 				</li>
 				<li class="userbar-item">
-					<a class="basket-button" href="#">
+					<a class="userbar-item-link basket-button" href="#">
 						<span class="visually-hidden">Корзина</span>
 					</a>
 				</li>
 				<li class="userbar-item">
-					<a class="entry-button" href="#">
+					<a class="userbar-item-link entry-button" href="#">
 						<span class="visually-hidden">Вход</span>
 					</a>
 				</li>
@@ -49,7 +50,7 @@
 					<a class="breadcrumbs-link" href="index.html" >Главная</a>
 				</li>
 				<li class="breadcrumbs-item">
-					<a class="breadcrumbs-link" href="catalog.html">Каталог</a>
+					<a class="breadcrumbs-link">Каталог</a>
 				</li>
 			</ul>
 		</header>
@@ -129,7 +130,7 @@
 					<option value="popular">Сначала популярные</option>
 				</select>
 			</form>
-			<a class="sorting-link button" href="#">Показать списком</a>
+			<a class="sorting-link-light button" href="#">Показать списком</a>
 			<a class="sorting-link button" href="#">Показать карточками</a>
 		</section>
 		<section class="goods">
@@ -137,7 +138,7 @@
 			<ul class="goods-list">
 				<li class="goods-item">
 					<a class="item-links" href="#">
-						<img class="goods-item-image" src="" alt="">
+						<img class="goods-item-image" src="images/catalog-1.jpg" alt="">
 						<h3 class="goods-item-title">Шампунь для мужчин Brews Daily</h3>
 					</a>
 					<span class="goods-item-price">744 ₽</span>
@@ -145,7 +146,7 @@
 				</li>
 				<li class="goods-item">
 					<a class="item-links" href="#">
-						<img class="goods-item-image" src="" alt>
+						<img class="goods-item-image" src="images/catalog-2.jpg" alt>
 						<h3 class="goods-item-title">Syoss шампунь Men Power & Strength</h3>
 					</a>
 					<span class="goods-item-price">160 ₽</span>
@@ -153,7 +154,7 @@
 				</li>
 				<li class="goods-item">
 					<a class="item-links" href="#">
-						<img class="goods-item-image" src="" alt="">
+						<img class="goods-item-image" src="images/catalog-3.jpg" alt="">
 						<h3 class="goods-item-title">Schauma шампунь для мужчин «Сила и объём с хмелем»</h3>
 					</a>
 					<span class="goods-item-price">94 ₽</span>
@@ -161,7 +162,7 @@
 				</li>
 				<li class="goods-item">
 					<a class="item-links" href="#">
-						<img class="goods-item-image" src="" alt="">
+						<img class="goods-item-image" src="images/catalog-4.jpg" alt="">
 						<h3 class="goods-item-title">Nivea Men шампунь-уход  «Экстремальная свежесть с ментолом»</h3>
 					</a>
 					<span class="goods-item-price">173 ₽</span>
@@ -169,7 +170,7 @@
 				</li>
 				<li class="goods-item">
 					<a class="item-links" href="#">
-						<img class="goods-item-image" src="" alt="">
+						<img class="goods-item-image" src="images/catalog-5.jpg" alt="">
 						<h3 class="goods-item-title">Шампунь Amplifier Thickening</h3>
 					</a>
 					<span class="goods-item-price">441 ₽</span>
@@ -177,7 +178,7 @@
 				</li>
 				<li class="goods-item">
 					<a class="item-links" href="#">
-						<img class="goods-item-image" src="" alt="">
+						<img class="goods-item-image" src="images/catalog-6.jpg" alt="">
 						<h3 class="goods-item-title">American Crew шампунь Anti-Dandruff</h3>
 					</a>
 					<span class="goods-item-price">904 ₽</span>
@@ -217,7 +218,7 @@
 	<footer class="page-footer">
 		<section class="footer-info">
 			<h2 class="visually-hidden">Barbershop Borodinski</h2>
-			<img class="footer-logo" src="" alt="Logo barbershop">
+			<img class="footer-logo" src="images/logo-footer-svg.svg" alt="Logo barbershop">
 				<address class="footer-address">Санкт-Петербург, набережная реки Карповки, 5, литера П.</address>
 				<a class="footer-phone" href="tel:88005558628">8-800-555-86-28</a>
 				<a class="footer-roadmap-link" href="#">Как нас найти?</a>
@@ -233,25 +234,26 @@
 			<h2 class="footer-social-title">Давайте дружить</h2>
 			<ul class="footer-social-list">
 				<li class="footer-social-item">
-					<a class="footer-social-link">
-						<img class="tweeter" src="#" alt="logo tweeter">
+					<a class="footer-social-link" href="#">
+						<span class="visually-hidden tweeter">Твиттер</span>
 					</a>
 				</li>
 				<li class="footer-social-item">
-					<a class="footer-social-link">
-						<img class="vkontakte" src="#" alt="logo vkontakte">
+					<a class="footer-social-link" href="#">
+						<span class="visually-hidden vkontakte">Вконтакте</span>
 					</a>
 				</li>
 				<li class="footer-social-item">
-					<a class="footer-social-link">
-						<img class="instagram" src="#" alt="logo instagram">
+					<a class="footer-social-link" href="#">
+						<span class="visually-hidden instagram">Инста</span>
 					</a>
 				</li>
 			</ul>
-			<span class="copyright">Milaev Roman 2023
+			<p class="copyright">Milaev Roman 2023
 				<a href="https://github.com/Milaev" class="git-creator">Github</a>
-				Сделано в <a class="copyright-link" href="https://htmlacademy.ru">.html academy</a>
-			</span>
+			</p>
+			<p>Сделано в <a class="copyright-link" href="https://htmlacademy.ru">.html academy</a>
+			</p>
 		</section>
 	</footer>
 	
