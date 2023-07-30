@@ -30,6 +30,17 @@ body {
 	background-color: #fbf7f4;
 }
 
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
 .button {
 	font-family: inherit;
 	font-size: 16px;
@@ -49,6 +60,13 @@ body {
 	font-weight: 700;
 	text-align: center;
 	text-decoration: none;
+	display: block;
+	padding: 24px 20px;
+}
+
+.userbar-item-link {
+	min-width: 16px;
+	min-height: 22px;
 }
  
 .main-content {
@@ -264,8 +282,13 @@ body {
 .sorting-view {
 	background-color: #ffffff;
 	color: #242424;
+	display: flex;
 }
 
+.sorting-form {
+	margin-right: auto;
+}
+ 
 .sorting-link-light {
 	color: #242424;
 	background-color: #ffffff
@@ -321,6 +344,9 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 535px;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .menu-logo {
