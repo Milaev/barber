@@ -10,11 +10,11 @@
 	<header class="main-header">
 		<nav class="main-menu">
 			<a class="menu-logo" href="index.html">
-				<img src="images/catalog-logo.svg" alt="Logo Small" width="138" height="16">
+				<img src="images/catalog-logo.svg" alt="Logo Small" width="140" height="17">
 			</a>
 			<ul class="top-menu">
 				<li class="top-menu-item">
-					<a href="about.html" class="menu-item" >О нас</a>
+					<a href="about.html" class="menu-item">О нас</a>
 				</li>
 				<li class="top-menu-item">
 					<a href="catalog.html" class="menu-item current">Каталог</a>
@@ -133,8 +133,12 @@
 								<option value="popular">Сначала популярные</option>
 							</select>
 						</form>
-						<a class="sorting-link-light button" href="#">Показать списком</a>
-						<a class="sorting-link button" href="#">Показать карточками</a>
+						<a class="sorting-link-light button" href="#">
+							<span class="visually-hidden">Показать списком</span>
+						</a>
+						<a class="sorting-link button" href="#">
+							<span class="visually-hidden">Показать карточками</span>
+						</a>
 					</section>
 					<section class="goods">
 						<h2 class="visually-hidden">Товары</h2>
@@ -189,34 +193,36 @@
 							</li>
 						</ul>
 					</section>
-					<ul class="pagination">
-						<li class="pagination-item">
-							<a class="pagination-link pagination-back pagination-disabled" href="#">
-								<span class="visually-hidden">Предыдущая страница</span>
-							</a>
-						</li>
-						<li class="pagination-item">
-							<a class="pagination-link pagination-current" href="#">1</a>
-						</li>
-						<li class="pagination-item">
-							<a class="pagination-link" href="#">2</a>
-						</li>
-						<li class="pagination-item">
-							<a class="pagination-link" href="#">3</a>
-						</li>
-						<li class="pagination-item">
-							<a class="pagination-link" href="#">4</a>
-						</li>
-						<li class="pagination-item">
-							<a class="pagination-link" href="#">5</a>
-						</li>
-						<li class="pagination-item">
-							<a class="pagination-link pagination-next" href="#">
-								<span class="visually-hidden">Следующая страница</span>
-							</a>
-						</li>
-					</ul>
-					<button type="button" class="button pagination-more">Показать ещё</button>
+					<div class="pagination-container">
+						<ul class="pagination">
+							<li class="pagination-item">
+								<a class="pagination-link pagination-back pagination-disabled" href="#">
+									<span class="visually-hidden">Предыдущая страница</span>
+								</a>
+							</li>
+							<li class="pagination-item">
+								<a class="pagination-link pagination-current" href="#">1</a>
+							</li>
+							<li class="pagination-item">
+								<a class="pagination-link" href="#">2</a>
+							</li>
+							<li class="pagination-item">
+								<a class="pagination-link" href="#">3</a>
+							</li>
+							<li class="pagination-item">
+								<a class="pagination-link" href="#">4</a>
+							</li>
+							<li class="pagination-item">
+								<a class="pagination-link" href="#">5</a>
+							</li>
+							<li class="pagination-item">
+								<a class="pagination-link pagination-next" href="#">
+									<span class="visually-hidden">Следующая страница</span>
+								</a>
+							</li>
+						</ul>
+						<button type="button" class="button pagination-more">Показать ещё</button>
+					</div>
 				</div>
 			</div>
 		</div>
