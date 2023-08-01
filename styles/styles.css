@@ -100,7 +100,8 @@ body {
 	margin-bottom: 64px;
 }
 
-.menu-item, .userbar-item-link {
+.menu-item,
+.userbar-item-link {
 	line-height: 22px; 
 	text-transform: uppercase;
 	color: white;
@@ -230,7 +231,7 @@ body {
 	font-style: normal;
 }
 
-.contacts-subtitle, .contacts-subtitle {
+.contacts-subtitle {
 	font-size: 20px;
 	line-height: 28px;
 	color: #AF7842;
@@ -306,7 +307,8 @@ body {
 	text-transform: uppercase;
 }
 
-.footer-subscribe-title, .footer-social-title {
+.footer-subscribe-title,
+.footer-social-title {
 	font-size: 20px;
 	line-height: 28px;
 	text-transform: uppercase;
@@ -367,7 +369,8 @@ body {
 }
 
 .filters-price-title,
-.filters-brands-title, .filters-product-group-title {
+.filters-brands-title,
+.filters-product-group-title {
 	color: black;
 	font-size: 20px;
 	line-height: 28px;
@@ -375,7 +378,8 @@ body {
 	font-weight: 700;
 }
 
-.filters-brands, .filters-product-group {
+.filters-brands,
+.filters-product-group {
 	font-size: 16px;
 	line-height: 22px;
 	font-weight: 700;
