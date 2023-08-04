@@ -31,6 +31,12 @@ body {
 	background-color: #fbf7f4;
 }
 
+fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
 .visually-hidden {
 	position: absolute;
 	width: 1px;
@@ -369,6 +375,15 @@ body {
 	margin-right: 32px;
 }
 
+.filters {
+	width: 220px;
+	margin-right: 20px;
+}
+
+.filters-price {
+	margin-bottom: 40px;
+}
+
 .filters-price-title,
 .filters-brands-title,
 .filters-product-group-title {
@@ -377,18 +392,23 @@ body {
 	line-height: 28px;
 	text-transform: uppercase;
 	font-weight: 700;
+	margin-bottom: 22px;
 }
 
-.filters-brands,
-.filters-product-group {
+.filters-brands-list,
+.filters-product-group-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 	font-size: 16px;
 	line-height: 22px;
 	font-weight: 700;
+	margin-bottom: 40px;
 }
 
-.filters {
-	width: 220px;
-	margin-right: 20px;
+.filters-brands-item,
+.filters-product-group-item {
+	margin-bottom: 16px;
 }
 
 .catalog-right-column {
