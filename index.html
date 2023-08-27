@@ -127,21 +127,39 @@
 				</section>
 				<section class="appointment">
 					<h2 class="appointment-title">Записаться</h2>
-					<p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони.</p>
+					<p class="appointment-desc">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони.</p>
 					<form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
-						<fieldset>
-							<label for="appointment-date">Дата</label>
-							<input type="date" id="appointment-date">
-							<label for="appointment-time">Время</label>
-							<input type="time" id="appointment-time">
-							<label for="appointment-phone">Телефон</label>
-							<input type="tel" id="appointment-phone" pattern="[0-9]{11}" placeholder="89007777777">
-						</fieldset>
-						<fieldset>
-							<label for="appointment-name">Ваше имя</label>
-							<input type="text" id="appointment-name">
-						</fieldset>
-						<button class="button" type="submit">Записаться</button>
+						<p class="field-group appointment-form-date">
+							<label class="form-label" for="appointment-date">
+								Дата
+								<button class="info">
+									<span class="visually-hidden">Посмотреть дополнительную информацию</span>
+								</button>
+							</label>
+							<input type="date" id="appointment-date" name="appointment-date">
+						</p>
+						<p class="field-group appointment-form-time">
+							<label class="form-label" for="appointment-time">
+								Время
+								<button class="info">
+									<span class="visually-hidden">Посмотреть дополнительную информацию</span>
+								</button>
+							</label>
+							<input type="time" id="appointment-time" name="appointment-time" title="Будни с 10-22, Выходные с 10-19">
+						</p>
+						<p class="field-group appointment-form-phone">
+							<label class="form-label" for="appointment-phone">
+								Телефон
+							</label>
+							<input type="tel" id="appointment-phone" name="appointment-phone" placeholder="+7 9XX XXX-XX-XX">
+						</p>
+						<p class="field-group appointment-form-name">
+							<label class="form-label" for="appointment-name">
+								Ваше имя
+							</label>
+							<input type="text" id="appointment-name" name="appointment-name">
+						</p>
+						<button class="button appointment-button" type="submit">Записаться</button>
 					</form>
 				</section>
 			</div>
