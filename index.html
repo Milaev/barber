@@ -11,28 +11,39 @@
 		<nav class="main-menu">
 			<ul class="top-menu">
 				<li class="top-menu-item">
-					<a class="menu-item" href="about.html">О нас</a>
+					<a class="top-menu-item-link" href="about.html">О нас</a>
 				</li>
 				<li class="top-menu-item">
-					<a class="menu-item" href="catalog.html">Каталог</a>
+					<a class="top-menu-item-link" href="catalog.html">Каталог</a>
 				</li>
 				<li class="top-menu-item">
-					<a class="menu-item" href="faq.html">Частые вопросы</a>
+					<a class="top-menu-item-link" href="faq.html">Частые вопросы</a>
 				</li>
 			</ul>
 			<ul class="top-menu userbar">
 				<li class="userbar-item">
-					<a class="userbar-item-link search-button" href="#">
+					<a class="userbar-item-link" href="#">
+						<svg class="userbar-icon" aria-hidden="true" focusable="false" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M11 6.5a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm-.665 5.249a6.5 6.5 0 111.414-1.414l3.958 3.958-1.414 1.414-3.958-3.958z" />
+						</svg>
 						<span class="visually-hidden">Поиск</span>
 					</a>
 				</li>
 				<li class="userbar-item">
 					<a class="userbar-item-link basket-button" href="#">
+						<svg class="userbar-icon" aria-hidden="true" focusable="false" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M3.09 6L3.577.905 3.662 0h8.676l.086.905L12.909 6h2.724l-.14 1.124-1 8-.11.876H1.617l-.11-.876-1-8L.368 6H3.09zM5.1 6h5.8l-.38-4H5.48L5.1 6zm-1.717 8l-.75-6h10.734l-.75 6H3.383zM8.5 9.5v3h2v-3h-2zm-3 3v-3h2v3h-2z" />
+						</svg>
 						<span class="visually-hidden">Корзина</span>
 					</a>
 				</li>
 				<li class="userbar-item">
-					<a class="userbar-item-link entry-button" href="#">Вход</a>
+					<a class="userbar-item-link entry-button" href="#">
+						<svg class="userbar-icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M9 2h5v12H9v2h7V0H9v2zM4.293 3.707L7.536 6.95H0v2h7.536l-3.243 3.242 1.414 1.415 4.95-4.95.707-.707-.707-.707-4.95-4.95-1.414 1.414z"/>
+						</svg>
+						Вход
+					</a>
 				</li>
 			</ul>
 		</nav>
@@ -60,23 +71,23 @@
 					<h2 class="services-title">Популярные услуги</h2>
 					<ul class="services-list">
 						<li class="services-item">
-							<span class="services-name">Стрижка машинкой</span>
+							Стрижка машинкой
 							<b class="services-price">800  ₽</b>
 						</li>
 						<li class="services-item">
-							<span class="services-name">Стрижка усов</span>
+							Стрижка усов
 							<b class="services-price">1200  ₽</b>
 						</li>
 						<li class="services-item">
-							<span class="services-name">Груминг</span>
+							Груминг
 							<b class="services-price">400  ₽</b>
 						</li>
 						<li class="services-item">
-							<span class="services-name">Комплексная стрижка</span>
+							Комплексная стрижка
 							<b class="services-price">2300  ₽</b>
 						</li>
 					</ul>
-					<a class="button services-button"  href="#">Посмотреть всё</a>
+					<a class="button services-button" href="#">Посмотреть всё</a>
 				</section>
 				<section class="photo-gallery">
 					<h2 class="photo-gallery-title">Фотогалерея</h2>
@@ -178,7 +189,7 @@
 				<h2 class="footer-subscribe-title">Получайте лучшие предложения</h2>
 				<form class="footer-subscribe-form" action="#" method="get">
 					<input class="footer-subscribe-email" type="email" placeholder="email@htmlacademy.ru" required>
-					<button class="button">
+					<button class="button footer-subscribe-button">
 						<span class="visually-hidden">Подписаться</span>
 					</button>
 				</form>
@@ -187,18 +198,18 @@
 				<h2 class="footer-social-title">Давайте дружить</h2>
 				<ul class="footer-social-list">
 					<li class="footer-social-item">
-						<a class="footer-social-link" href="#">
+						<a class="footer-social-link footer-social-tw" href="#">
 							<span class="visually-hidden tweeter">Твиттер</span>
 						</a>
 					</li>
 					<li class="footer-social-item">
-						<a class="footer-social-link" href="#">
-							<span class="visually-hidden vkontakte">Вконтакте</span>
+						<a class="footer-social-link footer-social-vk" href="#">
+							<span class="visually-hidden">Вконтакте</span>
 						</a>
 					</li>
 					<li class="footer-social-item">
-						<a class="footer-social-link" href="#">
-							<span class="visually-hidden instagram">Инста</span>
+						<a class="footer-social-link footer-social-inst" href="#">
+							<span class="visually-hidden">Инста</span>
 						</a>
 					</li>
 				</ul>

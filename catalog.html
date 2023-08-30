@@ -14,28 +14,37 @@
 			</a>
 			<ul class="top-menu">
 				<li class="top-menu-item">
-					<a href="about.html" class="menu-item">О нас</a>
+					<a href="about.html" class="top-menu-item-link">О нас</a>
 				</li>
 				<li class="top-menu-item">
-					<a href="catalog.html" class="menu-item current">Каталог</a>
+					<a href="catalog.html" class="top-menu-item-link top-menu-item-link-current">Каталог</a>
 				</li>
 				<li class="top-menu-item">
-					<a href="faq.html" class="menu-item">Частые вопросы</a>
+					<a href="faq.html" class="top-menu-item-link">Частые вопросы</a>
 				</li>
 			</ul>
 			<ul class="top-menu userbar">
 				<li class="userbar-item">
 					<a class="userbar-item-link search-button" href="#">
+						<svg class="userbar-icon" aria-hidden="true" focusable="false" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M11 6.5a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zm-.665 5.249a6.5 6.5 0 111.414-1.414l3.958 3.958-1.414 1.414-3.958-3.958z" />
+						</svg>
 						<span class="visually-hidden">Поиск</span>
 					</a>
 				</li>
 				<li class="userbar-item">
 					<a class="userbar-item-link basket-button" href="#">
+						<svg class="userbar-icon" aria-hidden="true" focusable="false" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M3.09 6L3.577.905 3.662 0h8.676l.086.905L12.909 6h2.724l-.14 1.124-1 8-.11.876H1.617l-.11-.876-1-8L.368 6H3.09zM5.1 6h5.8l-.38-4H5.48L5.1 6zm-1.717 8l-.75-6h10.734l-.75 6H3.383zM8.5 9.5v3h2v-3h-2zm-3 3v-3h2v3h-2z" />
+						</svg>
 						<span class="visually-hidden">Корзина</span>
 					</a>
 				</li>
 				<li class="userbar-item">
-					<a class="userbar-item-link entry-button" href="#">
+					<a class="userbar-item-link login-button" href="#">
+						<svg class="userbar-icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M8 8C9.65685 8 11 6.65685 11 5C11 3.34315 9.65685 2 8 2C6.34315 2 5 3.34315 5 5C5 6.65685 6.34315 8 8 8ZM8 10C4.68629 10 2 12.6863 2 16H14C14 12.6863 11.3137 10 8 10Z"/>
+						</svg>
 						<span class="visually-hidden">Вход</span>
 					</a>
 				</li>
@@ -133,10 +142,23 @@
 								<option value="popular">Сначала популярные</option>
 							</select>
 						</form>
-						<a class="sorting-link-light button" href="#">
+						<a class="sorting-link" href="#">
+							<svg width="16" height="16" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+								<path d="M2 0a2 2 0 100 4 2 2 0 000-4zm0 6a2 2 0 100 4 2 2 0 000-4zm-2 8a2 2 0 114 0 2 2 0 01-4 0zM7 1a1 1 0 000 2h8a1 1 0 100-2H7zM6 8a1 1 0 011-1h8a1 1 0 110 2H7a1 1 0 01-1-1zm1 5a1 1 0 100 2h8a1 1 0 100-2H7z" />
+							</svg>
 							<span class="visually-hidden">Показать списком</span>
 						</a>
-						<a class="sorting-link button" href="#">
+						<a class="sorting-link sorting-link-current" href="#">
+							<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+								<g clip-path="url(#clip0_118922_1004)">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M0 2C0 0.895431 0.895431 0 2 0C3.10457 0 4 0.895431 4 2C4 3.10457 3.10457 4 2 4C0.895431 4 0 3.10457 0 2ZM6 2C6 0.895431 6.89543 0 8 0C9.10457 0 10 0.895431 10 2C10 3.10457 9.10457 4 8 4C6.89543 4 6 3.10457 6 2ZM16 2C16 0.895431 15.1046 0 14 0C12.8954 0 12 0.895431 12 2C12 3.10457 12.8954 4 14 4C15.1046 4 16 3.10457 16 2ZM0 8C0 6.89543 0.895431 6 2 6C3.10457 6 4 6.89543 4 8C4 9.10457 3.10457 10 2 10C0.895431 10 0 9.10457 0 8ZM10 8C10 6.89543 9.10457 6 8 6C6.89543 6 6 6.89543 6 8C6 9.10457 6.89543 10 8 10C9.10457 10 10 9.10457 10 8ZM12 8C12 6.89543 12.8954 6 14 6C15.1046 6 16 6.89543 16 8C16 9.10457 15.1046 10 14 10C12.8954 10 12 9.10457 12 8ZM4 14C4 12.8954 3.10457 12 2 12C0.895431 12 0 12.8954 0 14C0 15.1046 0.895431 16 2 16C3.10457 16 4 15.1046 4 14ZM6 14C6 12.8954 6.89543 12 8 12C9.10457 12 10 12.8954 10 14C10 15.1046 9.10457 16 8 16C6.89543 16 6 15.1046 6 14ZM16 14C16 12.8954 15.1046 12 14 12C12.8954 12 12 12.8954 12 14C12 15.1046 12.8954 16 14 16C15.1046 16 16 15.1046 16 14Z"/>
+								</g>
+								<defs>
+									<clipPath id="clip0_118922_1004">
+										<rect width="16" height="16" fill="white"/>
+									</clipPath>
+								</defs>
+							</svg>
 							<span class="visually-hidden">Показать карточками</span>
 						</a>
 					</section>
@@ -250,27 +272,29 @@
 			</section>
 			<section class="footer-subscribe">
 				<h2 class="footer-subscribe-title">Получайте лучшие предложения</h2>
-				<input class="footer-subscribe-email" type="email" placeholder="email@htmlacademy.ru">
-				<button class="button">
-					<span class="visually-hidden">Подписаться</span>
-				</button> 
+				<form class="footer-subscribe-form" action="#" method="get">
+					<input class="footer-subscribe-email" type="email" placeholder="email@htmlacademy.ru">
+					<button class="button footer-subscribe-button">
+						<span class="visually-hidden">Подписаться</span>
+					</button>
+				</form>
 			</section>
 			<section class="footer-social">
 				<h2 class="footer-social-title">Давайте дружить</h2>
 				<ul class="footer-social-list">
 					<li class="footer-social-item">
-						<a class="footer-social-link" href="#">
-							<span class="visually-hidden tweeter">Твиттер</span>
+						<a class="footer-social-link footer-social-tw" href="#">
+							<span class="visually-hidden">Твиттер</span>
 						</a>
 					</li>
 					<li class="footer-social-item">
-						<a class="footer-social-link" href="#">
-							<span class="visually-hidden vkontakte">Вконтакте</span>
+						<a class="footer-social-link footer-social-vk" href="#">
+							<span class="visually-hidden">Вконтакте</span>
 						</a>
 					</li>
 					<li class="footer-social-item">
-						<a class="footer-social-link" href="#">
-							<span class="visually-hidden instagram">Инста</span>
+						<a class="footer-social-link footer-social-inst" href="#">
+							<span class="visually-hidden">Инста</span>
 						</a>
 					</li>
 				</ul>
