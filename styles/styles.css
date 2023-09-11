@@ -631,6 +631,7 @@ img {
 
 .info {
 	position: absolute;
+	right: 0;
 	width: 16px;
 	height: 16px;
 	margin-top: 4px;
@@ -686,6 +687,11 @@ img {
 
 .appointment-form-name {
 	grid-column: 1 / -1;
+}
+
+.appointment-form-date,
+.appointment-form-time {
+	position: relative;
 }
 
 .appointment-button {
