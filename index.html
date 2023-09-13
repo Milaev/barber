@@ -78,7 +78,7 @@
 			</ul>
 		</nav>
 	</header>
-	<main class="main-content main-container">
+	<main class="main-container main-content">
 		<div class="page-container">
 			<h1 class="visually-hidden">Barbershop</h1>
 			<img class="logo" src="images/logo-main.svg" alt="LOGO Barbershop" width="367" height="152">
@@ -167,8 +167,10 @@
 						<li class="schedule-item">пн—пт: с 10:00 до 22:00</li>
 						<li class="schedule-item">сб—вс: с 10:00 до 19:00</li>
 					</ul>
-					<a class="button roadmap-button" href="#">Как проехать</a>
-					<a class="button feedback-button" href="#">Обратная связь</a>
+					<div class="contacts-buttons">
+						<a class="button roadmap-button" href="#">Как проехать</a>
+						<a class="button feedback-button" href="#">Обратная связь</a>
+					</div>
 				</section>
 				<section class="appointment">
 					<h2 class="appointment-title">Записаться</h2>
@@ -178,7 +180,7 @@
 							<label class="form-label form-label-icon" for="appointment-date">
 								Дата
 							</label>
-							<button class="info">
+							<button class="info" type="button">
 								<span class="visually-hidden">Посмотреть дополнительную информацию</span>
 							</button>
 							<input class="field" type="text" id="appointment-date" name="appointment-date" placeholder="01.01.2023">
@@ -187,7 +189,7 @@
 							<label class="form-label" for="appointment-time">
 								Время
 							</label>
-							<button class="info">
+							<button class="info" type="button">
 								<span class="visually-hidden">Посмотреть дополнительную информацию</span>
 							</button>
 							<input class="field" type="text" id="appointment-time" name="appointment-time" placeholder="10:00" title="Будни с 10-22, Выходные с 10-19">
@@ -196,7 +198,7 @@
 							<label class="form-label" for="appointment-phone">
 								Телефон
 							</label>
-							<input class="field" type="text" id="appointment-phone" name="appointment-phone" placeholder="+7 9XX XXX-XX-XX">
+							<input class="field" type="text" id="appointment-phone" name="appointment-phone" placeholder="+7 9XX XXX-XX-XX" required>
 						</p>
 						<p class="field-group appointment-form-name">
 							<label class="form-label" for="appointment-name">
@@ -265,11 +267,11 @@
 				<form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
 					<p class="field-group">
 						<label class="visually-hidden" for="auth-login">Логин</label>
-						<input class="auth-form-field field" type="text" id="auth-login" name="auth-login" placeholder="Логин">
+						<input class="auth-form-field field" type="text" id="auth-login" name="auth-login" placeholder="Логин" required>
 					</p>
 					<p class="field-group">
 						<label class="visually-hidden" for="auth-password">Логин</label>
-						<input class="auth-form-field field" type="password" id="auth-password" name="auth-password" placeholder="Пароль">
+						<input class="auth-form-field field" type="password" id="auth-password" name="auth-password" placeholder="Пароль" required>
 					</p>
 					<p class="field-group auth-form-user-options">
 						<label class="auth-form-checkbox control">
